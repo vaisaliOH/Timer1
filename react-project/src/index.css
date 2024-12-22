@@ -1,0 +1,26 @@
+body{
+  background-image: url(./assets/wall.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.clock-container{
+  backdrop-filter: blur(11px);
+}
+.clock{
+  font-size: 5rem;
+  color: black;
+  text-align: center;
+  font-weight:bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
